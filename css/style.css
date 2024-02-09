@@ -1,0 +1,100 @@
+.nav-container {
+    font-family: monospace;
+    font-size: 30px;
+    position: sticky;
+    container-type: normal;
+    top: 0px;
+    /* padding: 2px; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    width: 100%;
+    background-color: #3498db;
+    /* Set your desired background color */
+    /* border-radius: 30px; */
+    /* Adjust the border-radius for rounded corners */
+    /* padding: 10px; */
+    /* Add padding for a better look */
+}
+
+.nav-link {
+    color: #fff !important;
+    /* Set the text color to white or your desired color */
+}
+
+a {
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding-top: 2%;
+    padding-bottom: 3%;
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    scroll-margin-top: 100px;
+    font-family: monospace;
+    font-size: 30px;
+    padding-bottom: 1%;
+    text-align: center;
+    justify-content: center;
+}
+
+.profile {
+    text-align: center;
+    padding-bottom: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img {
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 2px solid #333;
+}
+
+.profile+.profile {
+    margin-left: 10px;
+}
+
+.profile:nth-child(2n) {
+    margin-right: 0;
+}
+
+.img_row {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    top: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_column {
+    flex: 1;
+    padding: 0px;
+    text-align: center;
+}
